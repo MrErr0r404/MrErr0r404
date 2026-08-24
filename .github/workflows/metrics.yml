@@ -1,0 +1,21 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight
+  workflow_dispatch:
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Isometric calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRIC_TOKEN }}
+          user: MrErr0r404
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
