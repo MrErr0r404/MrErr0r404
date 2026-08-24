@@ -15,6 +15,9 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=MrErr0r404&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
+## 🗓️ Isometric Contributions
+![Isometric Contribution Calendar](metrics.plugin.isocalendar.svg)
+
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=MrErr0r404&limit=5&theme=dracula&combine_all_yearly_contributions=true)
 
